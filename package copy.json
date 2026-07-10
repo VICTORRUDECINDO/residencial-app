@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.1",
+    "lucide-react": "^1.23.0",
+    "next-cloudinary": "^6.17.5"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3",
+    "electron": "^43.1.0",
+    "electron-builder": "^26.15.3"
+  }
+}
