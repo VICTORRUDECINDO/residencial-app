@@ -42,18 +42,20 @@ Esto instalará automáticamente todos los módulos necesarios, incluyendo:
 
 ## 🔑 Configuración de Credenciales
 
-Crea un archivo llamado `.env.local` en la raíz del proyecto con el siguiente contenido. **Este archivo NO se sube a GitHub** por seguridad.
+El archivo `.env.local` con las credenciales ya está incluido en el repositorio. Las variables configuradas son:
 
 ```env
-# Supabase — Obtén estos valores en: supabase.com > Tu Proyecto > Project Settings > API
-NEXT_PUBLIC_SUPABASE_URL=https://TU-PROYECTO.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=TU_CLAVE_ANON_KEY
+# Supabase — Conexión a la base de datos
+NEXT_PUBLIC_SUPABASE_URL=https://bgesyypukeseeatbeaex.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_66VefwwNrx0qoT7FFpEACQ_OcZDDgkj
 
-# EmailJS — Obtén estos valores en: emailjs.com > Account > API Keys y Email Services
-NEXT_PUBLIC_EMAILJS_SERVICE_ID=service_XXXXXXX
-NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=template_XXXXXXX
-NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=TU_PUBLIC_KEY
+# EmailJS — Envío automático del correo de recuperación de PIN
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=service_1nllte9
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=template_8dei4j9
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=zGwD717OFRgiUPayb
 ```
+
+> Si en algún momento cambias estas credenciales, actualiza el archivo `.env.local` y reinicia el servidor de desarrollo.
 
 ---
 
